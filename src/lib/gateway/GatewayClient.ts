@@ -178,6 +178,7 @@ export class GatewayClient {
     const nextClient = new GatewayBrowserClient({
       url: options.gatewayUrl,
       token: options.token,
+      password: options.token,
       authScopeKey: options.authScopeKey,
       clientName: options.clientName,
       disableDeviceAuth: options.disableDeviceAuth,
